@@ -369,3 +369,7 @@ class AutoModelForMultipleChoice(_BaseAutoModelClass):
 
 class AutoModelForTokenClassification(_BaseAutoModelClass):
     HF_Model = transformers.AutoModelForTokenClassification
+
+
+class AutoModelForImageClassification(_BaseAutoModelClass):
+    HF_Model = transformers.AutoModelForImageClassification

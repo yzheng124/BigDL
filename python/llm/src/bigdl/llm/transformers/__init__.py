@@ -20,5 +20,5 @@ from .model import AutoModelForCausalLM, AutoModel, AutoModelForSeq2SeqLM, \
         AutoModelForSpeechSeq2Seq, AutoModelForQuestionAnswering, \
         AutoModelForSequenceClassification, AutoModelForMaskedLM, \
         AutoModelForNextSentencePrediction, AutoModelForMultipleChoice, \
-        AutoModelForTokenClassification
+        AutoModelForTokenClassification, AutoModelForImageClassification
 from .modelling_bigdl import *
